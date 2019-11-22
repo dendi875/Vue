@@ -8,7 +8,7 @@
       输入城市/景点/游玩主题
     </div>
     <div class="header-right">
-      城市
+      {{this.city}}
       <span class="iconfont arrow-icon">&#xe6eb;</span>
     </div>
   </div>
@@ -16,7 +16,14 @@
 
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  // 子组件通过 props 来接受父组件传递过来的数据
+  // 因为单向数据流，子组件如果要修改父组件传递过来的数据，要先克隆一份
+  props: {
+    city: {
+      type: String
+    }
+  }
 }
 </script>
 

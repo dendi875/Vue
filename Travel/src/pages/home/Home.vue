@@ -1,7 +1,7 @@
 <template>
   <div>
-    <home-header></home-header>
-    <home-swiper></home-swiper>
+    <home-header :city="city"></home-header>
+    <home-swiper :list="swiperList"></home-swiper>
     <home-icons></home-icons>
     <home-recommend></home-recommend>
     <home-weekend></home-weekend>
@@ -25,6 +25,12 @@ export default {
     HomeRecommend: HomeRecommend,
     HomeWeekend: HomeWeekend
   },
+  data: function () {
+    return {
+      city: '',
+      swiperList: []
+    }
+  },
   mounted: function () {
     this.getHomeInfo()
   },
@@ -35,7 +41,12 @@ export default {
         .then(this.getHomeInfoSuccuss)
     },
     getHomeInfoSuccuss: function (response) {
-      console.log(response)
+      response = response.data
+      if (response.ret && response.data) {
+        const data = response.data
+        this.city = data.city
+        this.swiperList = data.swiperList
+      }
     }
   }
 }
