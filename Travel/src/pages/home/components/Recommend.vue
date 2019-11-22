@@ -42,7 +42,7 @@ export default {
           desc: '感受海洋公园乐趣'
         }
       ]
-    };
+    }
   }
 }
 </script>

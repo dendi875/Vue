@@ -9,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/Travel/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Travel/src/pages/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/pages/home/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Travel/src/pages/home/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/pages/home/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/src/pages/home/components/Recommend.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/pages/home/components/Recommend.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="notes.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            <state relative-caret-position="480">
+              <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -69,29 +71,29 @@
       <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="133">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
-                <element signature="e#144#188#0" expanded="true" />
+                <element signature="e#182#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swiper.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue">
+      <file leaf-file-name="Recommend.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Recommend.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="437">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recommend.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Recommend.vue">
+      <file leaf-file-name="Weekend.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Weekend.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+            <state relative-caret-position="361">
+              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -99,8 +101,17 @@
       <file leaf-file-name="Icons.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Icons.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="1957">
               <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Swiper.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -128,13 +139,14 @@
         <option value="$PROJECT_DIR$/Travel/build/webpack.base.conf.js" />
         <option value="$PROJECT_DIR$/Travel/src/main.js" />
         <option value="$PROJECT_DIR$/Travel/src/pages/home/components/Header.vue" />
-        <option value="$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue" />
         <option value="$PROJECT_DIR$/Travel/src/assets/styles/varibles.styl" />
         <option value="$PROJECT_DIR$/Travel/src/assets/styles/mixins.styl" />
         <option value="$PROJECT_DIR$/Travel/src/pages/home/components/Icons.vue" />
-        <option value="$PROJECT_DIR$/notes.md" />
         <option value="$PROJECT_DIR$/Travel/src/pages/home/Home.vue" />
+        <option value="$PROJECT_DIR$/notes.md" />
+        <option value="$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue" />
         <option value="$PROJECT_DIR$/Travel/src/pages/home/components/Recommend.vue" />
+        <option value="$PROJECT_DIR$/Travel/src/pages/home/components/Weekend.vue" />
       </list>
     </option>
   </component>
@@ -1612,12 +1624,12 @@
       <workItem from="1574247455956" duration="2531000" />
       <workItem from="1574250689759" duration="537000" />
       <workItem from="1574300346613" duration="2374000" />
-      <workItem from="1574303645934" duration="32113000" />
+      <workItem from="1574303645934" duration="33530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37555000" />
+    <option name="totallyTimeSpent" value="38972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1873,39 +1885,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
-            <element signature="e#144#188#0" expanded="true" />
+            <element signature="e#182#226#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="480">
+          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Swiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Icons.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="1957">
           <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Recommend.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        <state relative-caret-position="437">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/src/pages/home/components/Weekend.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
         </state>
       </provider>
     </entry>
