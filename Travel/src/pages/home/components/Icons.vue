@@ -1,6 +1,6 @@
 <template>
   <div class="icons">
-    <swiper>
+    <swiper :options="swiperOption">
       <swiper-slide v-for="(page, index) of pages" :key="index">
         <div class="icon" v-for="item of page" :key="item.id">
           <div class="icon-img">
@@ -16,62 +16,23 @@
 <script>
 export default {
   name: 'HomeIcons',
+  props: {
+    list: {
+      type: Array
+    }
+  },
   data: function () {
     return {
-      iconList: [
-        {
-          id: 1,
-          imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          desc: '景点门票'
-        },
-        {
-          id: 2,
-          imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/3ef092d0a89ffddb7f781cda30c8ae49.png',
-          desc: '错峰出游'
-        },
-        {
-          id: 3,
-          imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/ea/01d081dacb03cc02.png',
-          desc: '赏秋色'
-        },
-        {
-          id: 4,
-          imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png',
-          desc: '一日游'
-        },
-        {
-          id: 5,
-          imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png',
-          desc: '上海自然博物馆'
-        },
-        {
-          id: 6,
-          imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png',
-          desc: '黄浦江游船'
-        },
-        {
-          id: 7,
-          imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png',
-          desc: '上海野生'
-        },
-        {
-          id: 8,
-          imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/de/f26be47a6bf02a02.png',
-          desc: '上海迪士尼'
-        },
-        {
-          id: 9,
-          imgUrl: 'https://img1.qunarzz.com/piao/fusion/1810/50/26ffa31b56646402.png',
-          desc: '上海海昌'
-        }
-      ]
+      swiperOption: {
+        autoPlay: false
+      }
     }
   },
   computed: {
     pages: function () {
       const pages = []
 
-      this.iconList.forEach((item, index) => {
+      this.list.forEach((item, index) => {
         const page = Math.floor(index / 8)
         if (!pages[page]) {
           pages[page] = []
