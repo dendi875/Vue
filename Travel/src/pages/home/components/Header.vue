@@ -9,7 +9,7 @@
     </div>
     <router-link to="/city">
       <div class="header-right">
-        {{this.$store.state.city}}
+        {{this.city}}
         <span class="iconfont arrow-icon">&#xe6eb;</span>
       </div>
     </router-link>
@@ -17,10 +17,16 @@
 </template>
 
 <script>
+import { mapState, mapGetters } from 'vuex'
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
   // 子组件通过 props 来接受父组件传递过来的数据
   // 因为单向数据流，子组件如果要修改父组件传递过来的数据，要先克隆一份
+  // mapState的意思是把 vuex里的数据映射到本组件的computed计算属性里。
+  computed: {
+    ...mapState(['city']),
+    ...mapGetters(['doubleCity'])
+  }
 }
 </script>
 

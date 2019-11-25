@@ -132,3 +132,8 @@ Actions调用Mutations或者组件调用Mutations是通过 Commit 方法来实�
 重启服务器：
 打开 main.js 引入 vuex.js
 -----------------------
+Vuex的高级功能使用及localStorage
+
+localStorage类似于cookie的功能，可以实现本地存储的功能。
+对 store/index.js 进行拆分，不然它会变得很臃肿
+Vuex里的 getters 类似于 Vue计算属性computed的计算属性作用，当我们需要通过 state 里的数据计算出新的数据时就可以使用它。
