@@ -40,6 +40,7 @@ export default {
       timer: null
     }
   },
+  // updated 当页面的数据被更新时，同时页面完成了渲染之后这个生命周期函数会被执行
   updated: function () {
     this.startY = this.$refs['A'][0].offsetTop
   },
