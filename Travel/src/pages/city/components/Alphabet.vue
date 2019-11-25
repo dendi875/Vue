@@ -1,6 +1,13 @@
 <template>
   <ul class="list">
-    <li class="item" v-for="(item, key) of cities" :key="key">{{key}}</li>
+    <li
+      class="item"
+      v-for="(item, key) of cities"
+      :key="key"
+      @click="handleLetterClick"
+    >
+      {{key}}
+    </li>
   </ul>
 </template>
 
@@ -11,6 +18,12 @@ export default {
     cities: {
       type: Object,
       required: true
+    }
+  },
+  methods: {
+    handleLetterClick: function (event) {
+      // 子组件通过 $emit 向父组件触发一个事件，父组件监听这个事件，接着父组件又通过属性传值的方式向兄弟组件传值
+      this.$emit('change', event.target.innerText)
     }
   }
 }

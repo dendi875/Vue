@@ -2,8 +2,8 @@
   <div>
     <city-header></city-header>
     <city-search></city-search>
-    <city-list :hotCities="hotCities" :cities="cities"></city-list>
-    <city-alphabet :cities="cities"></city-alphabet>
+    <city-list :hotCities="hotCities" :cities="cities" :letter="letter"></city-list>
+    <city-alphabet :cities="cities" @change="handleLetterChange"></city-alphabet>
   </div>
 </template>
 
@@ -25,7 +25,8 @@ export default {
   data: function () {
     return {
       hotCities: [],
-      cities: {}
+      cities: {},
+      letter: ''
     }
   },
   mounted: function () {
@@ -44,6 +45,9 @@ export default {
         this.hotCities = data.hotCities
         this.cities = data.cities
       }
+    },
+    handleLetterChange: function (letter) { // 父组件监听子组件触发的事件，然后又通过属性传值的方式把 letter 传递给子组件
+      this.letter = letter
     }
   }
 }
