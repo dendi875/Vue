@@ -35,8 +35,13 @@ export default {
   },
   data: function () {
     return {
-      touchStatus: false
+      touchStatus: false,
+      startY: 0,
+      timer: null
     }
+  },
+  updated: function () {
+    this.startY = this.$refs['A'][0].offsetTop
   },
   methods: {
     handleLetterClick: function (event) {
@@ -48,12 +53,16 @@ export default {
     },
     handleTouchMove: function (e) {
       if (this.touchStatus) { // 做滑动的处理
-        const startY = this.$refs['A'][0].offsetTop
-        const touchY = e.touches[0].clientY - 79
-        const index = Math.floor((touchY - startY) / 20)
-        if (index >= 0 && index < this.letters.length) {
-          this.$emit('change', this.letters[index])
+        if (this.timer) {
+          clearTimeout(this.timer)
         }
+        this.timer = setTimeout(() => {
+          const touchY = e.touches[0].clientY - 79
+          const index = Math.floor((touchY - this.startY) / 20)
+          if (index >= 0 && index < this.letters.length) {
+            this.$emit('change', this.letters[index])
+          }
+        }, 16)
       }
     },
     handleTouchEnd: function () {
@@ -83,4 +92,8 @@ export default {
 <!--
 我们希望只有在 touchstart 之后才可以触发 touchmove里的一些操作，所以需要在 data 里定义一个标志为 `touchStatus`（默认为false），
 当你的手指触摸时 this.touchStatus = true，当结束触摸时 this.touchStatus = false。
+
+优化：
+1、startY 的值是一个固定的不需要每次都计算
+2、做一个函数截流来限制函数执行的频率 定义一个 timer
 -->

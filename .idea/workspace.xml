@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/Travel/src/pages/city/City.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/pages/city/City.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Travel/src/pages/city/components/Alphabet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/pages/city/components/Alphabet.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Travel/src/pages/city/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/src/pages/city/components/List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="notes.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notes.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="499">
+              <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -54,8 +53,8 @@
       <file leaf-file-name="City.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel/src/pages/city/City.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            <state relative-caret-position="855">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="e#218#243#0" expanded="true" />
               </folding>
@@ -72,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Alphabet.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Alphabet.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Travel/src/pages/city/components/Alphabet.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -143,8 +142,8 @@
         <option value="$PROJECT_DIR$/Travel/src/pages/city/City.vue" />
         <option value="$PROJECT_DIR$/Travel/src/pages/city/components/List.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Travel/src/pages/city/components/Alphabet.vue" />
         <option value="$PROJECT_DIR$/notes.md" />
+        <option value="$PROJECT_DIR$/Travel/src/pages/city/components/Alphabet.vue" />
       </list>
     </option>
   </component>
@@ -1667,12 +1666,12 @@
       <workItem from="1574247455956" duration="2531000" />
       <workItem from="1574250689759" duration="537000" />
       <workItem from="1574300346613" duration="2374000" />
-      <workItem from="1574303645934" duration="61066000" />
+      <workItem from="1574303645934" duration="61899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66508000" />
+    <option name="totallyTimeSpent" value="67341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -2008,16 +2007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Travel/src/pages/city/City.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding>
-            <element signature="e#218#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Travel/src/pages/city/components/List.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -2025,17 +2014,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Travel/src/pages/city/components/Alphabet.vue">
+    <entry file="file://$PROJECT_DIR$/notes.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="499">
+          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.md">
+    <entry file="file://$PROJECT_DIR$/Travel/src/pages/city/City.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="855">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="e#218#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/src/pages/city/components/Alphabet.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
         </state>
       </provider>
     </entry>
