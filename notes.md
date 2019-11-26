@@ -137,3 +137,6 @@ Vuex的高级功能使用及localStorage
 localStorage类似于cookie的功能，可以实现本地存储的功能。
 对 store/index.js 进行拆分，不然它会变得很臃肿
 Vuex里的 getters 类似于 Vue计算属性computed的计算属性作用，当我们需要通过 state 里的数据计算出新的数据时就可以使用它。
+
+使用 keep-alive 优化网面性能。
+当使用 keep-alive 时我们的 vue 会多出一个生命周期函数 activated
