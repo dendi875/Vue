@@ -39,6 +39,10 @@ export default {
   activated: function () {
     // 绑定一个事件（scroll事件），事件处理程序是 this.handleScroll
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated: function () {
+    // 解绑 scroll 事件
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
