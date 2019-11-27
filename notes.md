@@ -156,3 +156,5 @@ Vuex里的 getters 类似于 Vue计算属性computed的计算属性作用，当�
 除了使用activated来解决keep-alive的缓存问题的另一个解决方案
 
 使用router来解决路由切换时始终使页面滚到顶部
+
+在项目中加入基础动画
