@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="banner" @click="handleBannerClick">
-      <img class="banner-img" src="//img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_600x330_8572a930.jpg" />
+      <img class="banner-img" :src="bannerImg" />
       <div class="banner-info">
-        <div class="banner-tittle">上海市浦东新区川沙新镇上海迪士尼度假区内</div>
+        <div class="banner-tittle">{{this.sightName}}}</div>
         <div class="banner-number">
           <span class="iconfont banner-icon">&#xe63b;</span>
-          73
+          {{this.bannerImgs.length}}
         </div>
       </div>
     </div>
@@ -23,14 +23,14 @@ export default {
     CommonGallary: CommonGallary
   },
   props: {
+    sightName: {
+      type: String
+    },
+    bannerImg: {
+      type: String
+    },
     bannerImgs: {
-      type: Array,
-      default: function () {
-        return [
-          'http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_800x800_70debc93.jpg',
-          'http://img1.qunarzz.com/sight/p0/1709/76/7691528bc7d7ad3ca3.img.png_800x800_9ef05ee7.png'
-        ]
-      }
+      type: Array
     }
   },
   data: function () {
