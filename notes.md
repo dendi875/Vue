@@ -161,6 +161,15 @@ Vuex里的 getters 类似于 Vue计算属性computed的计算属性作用，当�
 
 Vue项目的接口联调
 ---------------------
-安装一个第三方包（babel-polyfill）来解决真机不能使用es6的一些新特性而导致手机白屏问题
+安装一个第三方包（babel-polyfill）来解决真机可能不能使用ES6的一些新特性而导致手机白屏问题
 npm install babel-polyfill --save
 -------------------------------------
+Vue项目的打包上线
+
+1、进入到我们的项目
+[root@localhost Travel]# cd /home/project/Vue/Travel/
+2、运行一个命令
+npm run build
+vue的脚手架会自动对我们的src目录进行打包并编译生成一个能被浏览器运行的代码，同时这个代码也是一个压缩后的代码
+build完后会多出一个 dist 目录，这个目录就是我们要上线的目录。
+3、把打包完成后的 dist目录到后端，和后端代码放一起。
