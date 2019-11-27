@@ -154,3 +154,5 @@ Vuex里的 getters 类似于 Vue计算属性computed的计算属性作用，当�
 使用axios来获取动态数据进行城市详情页面的渲染
 
 除了使用activated来解决keep-alive的缓存问题的另一个解决方案
+
+使用router来解决路由切换时始终使页面滚到顶部
